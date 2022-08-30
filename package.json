@@ -3,14 +3,18 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "lint": "eslint src"
   },
   "dependencies": {
+    "react": "^18.2.0",
     "vue": "^3.0.4"
   },
   "devDependencies": {
-    "vite": "^1.0.0-rc.13",
-    "@vue/compiler-sfc": "^3.0.4"
+    "@vue/compiler-sfc": "^3.0.4",
+    "eslint": "^8.23.0",
+    "eslint-plugin-react": "^7.31.1",
+    "vite": "^1.0.0-rc.13"
   },
   "main": "index.js",
   "author": "",
