@@ -1,7 +1,12 @@
 <template>
-  <h1>{{ msg }}</h1>
-  <button @click="count++">count is: {{ count }}</button>
-  <p>Edit <code>components/HelloWorld.vue</code> to test hot module replacement.</p>
+  <div>
+    <div>
+      単純なスロットで組み込み
+      <slot />
+      <slot>
+        これは、slotで上書きされる
+      </slot>
+    </div>
 </template>
 
 <script>
